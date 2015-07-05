@@ -6,7 +6,7 @@ MAINTAINER  liuhong1.happy@163.com
 ENV USER_NAME admin
 ENV SERVICE_ID docker-docs
 # 添加默认依赖包calibre gitbook
-RUN curl -sL https://deb.nodesource.com/setup | bash - && npm install -g gitbook@1.3.4
+RUN npm install -g gitbook@1.3.4
 RUN apt-get install -y calibre
 COPY dockerdocs/. /gitbook
 # 暴露4000
