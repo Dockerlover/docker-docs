@@ -14,7 +14,7 @@ docker化gitbook应用，用于部署社区文档
 
 - 获取docker-docs
 
-            git clone https://github.com/Dockerlover/docker-docs.git
-            cp -R dockerdocs docker-docs
-            cd docker-docs 
-            docker build -t docker-docs .
+            git clone https://github.com/Dockerlover/docker-gitbook.git
+            cp -R dockerdocs docker-gitbook
+            cd docker-gitbook 
+            docker build -t docker-gitbook .
