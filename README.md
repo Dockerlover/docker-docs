@@ -22,6 +22,11 @@ docker化gitbook应用，用于部署社区文档
 
             docker build -t docker-gitbook .
 
+- 运行容器
+
+            docker run -it -d --restart=always -p 4000:4000 docker-gitbook
+
+- 运行其他gitbook项目只需替换docs文件夹下的内容，重新构建即可。
 
 
 
