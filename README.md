@@ -1,7 +1,11 @@
 # docker-docs
 docker部署社区文档
 
-# 使用方法
+## 镜像特点
+
+- 2015/7/4 继承基础镜像docker-nodejs
+
+## 使用方法
 
 - 获取dockerdocs
 
