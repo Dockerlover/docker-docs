@@ -1,11 +1,12 @@
 # docker-docs
-docker部署社区文档
+
+docker化gitbook应用，用于部署社区文档
 
 ## 镜像特点
 
 - 2015/7/4 继承基础镜像docker-nodejs
 
-## 使用方法
+## 部署社区文档的方法
 
 - 获取dockerdocs
 
