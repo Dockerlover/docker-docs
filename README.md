@@ -8,13 +8,20 @@ docker化gitbook应用，用于部署社区文档
 
 ## 部署社区文档的方法
 
-- 获取dockerdocs
-
-            git clone https://github.com/liuhong1happy/dockerdocs.git
-
-- 获取docker-docs
+- 获取docker-gitbook
 
             git clone https://github.com/Dockerlover/docker-gitbook.git
-            cp -R dockerdocs docker-gitbook
             cd docker-gitbook 
+            
+- 获取dockerdocs
+
+            git submodule init
+            git submodule update
+
+- 构建docker-gitbook
+
             docker build -t docker-gitbook .
+
+
+
+
